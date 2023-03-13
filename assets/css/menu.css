@@ -1,0 +1,65 @@
+.menu{
+	display:flex;
+	justify-content:space-between;
+}
+
+.menu__header{
+	display:flex;
+	align-items:center;
+}
+
+.menu__icono{
+	background:url('../img/vector.png') no-repeat center / cover;
+	height:1.5rem;
+	width:1.5rem;
+}
+
+.menu__title{
+	font-family:Raleway, Arial;
+	Color:#000000;
+	margin-left:0.5rem;
+}
+
+.menu nav{
+	display:flex;
+	align-items:center;
+}
+
+.menu a{
+	text-decoration: none;
+	font-family:Raleway, Arial;
+	Color:#000000;
+}
+
+
+.menu__lista__item__contacto{
+	list-style:none;
+	font-weight:bold;	
+}
+
+@media screen and (min-width:0){
+	.menu__lista{
+		display:none;
+	}
+}
+
+@media screen and (min-width:768px){
+	.menu__lista{
+		display:flex;
+		justify-content:space-around;
+	}
+	
+	.menu__lista__item{
+	margin-right:0;
+	}
+}
+
+
+@media screen and (min-width:992px){
+	.menu__lista__item{
+	margin-right:1rem;
+	}
+}
+
+
+

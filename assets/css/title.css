@@ -1,0 +1,100 @@
+.title{
+	
+}
+
+.title__container{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+
+.title__bio{
+	font-family:Raleway, Arial;
+	font-weight:bold;	
+}
+
+.title__subsection{
+	font-family:Raleway, Arial;	
+}
+
+.title__network{
+	display:flex;		
+}
+
+.title__network__item{
+	display:flex;
+	align-items:center;
+	margin-right:5rem;
+}
+
+.title__network__item a{
+	text-decoration: none;
+	font-family:Raleway, Arial;
+	Color:#000000;	
+}
+
+.title__network__img{
+	background:url('../img/arrow.png') no-repeat center / cover;
+	display:inline-block;
+	height:1rem;
+	width:1rem;	
+}
+
+@media screen and (min-width:0){
+	.title__div{
+		display:flex;
+		flex-direction:column;
+	}
+	
+	.title__profile{	
+		margin:1rem;
+		width:10rem;
+		height:auto;
+	}
+	
+	.title__elements{
+	padding-top:1rem;	
+	}
+	
+	.title__bio{
+		font-size:1.5rem;
+	}
+	
+	.title__network__item{
+		margin-right:3rem;
+	}
+}
+
+@media screen and (min-width:768px){
+	.title__div{
+		display:flex;
+		flex-direction:row-reverse;
+		justify-content:center;
+	}
+	
+	.title__profile{
+		width:auto;		
+		height:15rem;		
+	}
+	
+	.title__bio{
+		font-size:2.5rem;
+	}
+	
+	.title__subsection{
+		font-size:1.5rem;
+	}
+	
+	.title__network__item{
+		margin-right:5rem;
+	}
+}
+
+@media screen and (min-width:992px){
+	.title__profile{
+		width:auto;			
+		height:20rem;
+	}
+}
+
+

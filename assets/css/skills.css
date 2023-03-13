@@ -1,0 +1,43 @@
+.skills{
+	
+}
+
+.skills__title{
+	text-align:center;
+	font-family:Raleway, Arial;
+	font-weight:bold;
+	font-size:1.5rem;
+	padding:1rem;
+}
+
+
+@media screen and (min-width:0){
+	.skills__line{
+	display:flex;
+	flex-direction:column;	
+	
+	}
+	
+	.skills__box{
+	background-color:#ffffff;
+	margin:1rem;
+	text-align:center;
+	padding:1rem;
+	}
+}
+
+@media screen and (min-width:375px){
+	.skills__line{
+	flex-direction:row;
+	justify-content:space-evenly;	
+	}
+	
+	.skills__box{
+	padding:2rem;
+	margin:0;
+	width:4rem;
+	}
+}
+
+
+	

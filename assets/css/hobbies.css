@@ -1,0 +1,39 @@
+.hobbies{
+	
+}
+
+.hobbies__title{
+	text-align:center;
+	font-family:Raleway, Arial;
+	font-weight:bold;
+	font-size:1.5rem;
+	padding:1rem;
+}
+
+
+@media screen and (min-width:0){
+	.hobbies__line{
+	display:flex;
+	flex-direction:column;		
+	}
+	
+	.hobbies__box{
+	background-color:#ffffff;
+	margin:1rem;
+	text-align:center;
+	padding:1rem;
+	}
+}
+
+@media screen and (min-width:375px){
+	.hobbies__line{
+	flex-direction:row;
+	justify-content:space-evenly;	
+	}
+	
+	.hobbies__box{
+	padding:2rem;
+	margin:0;
+	width:4rem;
+	}
+}
